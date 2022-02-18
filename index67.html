@@ -8,14 +8,14 @@
   <script> 
   //Функция для открытия страницы в новом окне браузера
     function openWin() {
-      myWin = open("page.html");
+      myWin = window.open("page.html","newWindow");
     }
   </script>
 </head>
 <body>
   <!--Размещение кнопки в окне браузера, по нажатию на которую открывается новое окно-->
   <form>
-    <input type = "button" value="Открываем новое окно";
+    <input type = "button" value="Открываем новое окно"
     onClick="openWin()">
   </form>
 </body>
